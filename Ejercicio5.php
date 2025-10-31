@@ -21,7 +21,7 @@
 
     // Cálculo del IMC
 
-    $imc = $peso / ($altura ** 2);
+    $imc = round($peso / ($altura ** 2), 2);
 
 
     // Cálculo de la categoría
@@ -45,6 +45,7 @@
     // Fin del programa
     
     echo "\nFin del programa. ¡Gracias por participar!";
+
 
 
 ?>
