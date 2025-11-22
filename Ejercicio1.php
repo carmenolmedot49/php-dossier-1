@@ -8,7 +8,7 @@
     // Solicitar información por teclado
 
     echo "¿Cómo te llamas? ";
-    fscanf(STDIN, "%s", $nombre);
+    $nombre = trim(fgets(STDIN));
 
 
     // Imprimir en pantalla
@@ -17,4 +17,3 @@
     
 
 ?>
-
